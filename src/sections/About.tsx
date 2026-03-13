@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import { CheckCircle } from "lucide-react";
+import aboutUsImg from "../../public/about-us.jpg";
 
 const features = [
   "十年以上行业经验",
@@ -51,7 +52,7 @@ export default function About() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="/about-us.jpg"
+                src={aboutUsImg}
                 alt="关于我们"
                 className="w-full h-auto"
               />

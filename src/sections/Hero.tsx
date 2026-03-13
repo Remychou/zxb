@@ -1,5 +1,6 @@
 import { useEffect, useRef } from "react";
 import { ArrowRight, ChevronDown } from "lucide-react";
+import heroBgImg from "../../public/hero-bg.jpg";
 
 export default function Hero() {
   const heroRef = useRef<HTMLDivElement>(null);
@@ -28,7 +29,7 @@ export default function Hero() {
       <div
         className="hero-bg absolute inset-0 w-full h-full"
         style={{
-          backgroundImage: "url('/hero-bg.jpg')",
+          backgroundImage: `url(${heroBgImg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}

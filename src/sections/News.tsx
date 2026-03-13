@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from "react";
 import { Calendar, ArrowRight } from "lucide-react";
+import aboutUsImg from "../../public/about-us.jpg";
+import chip1Img from "../../public/chip-1.jpg";
+import chip3Img from "../../public/chip-3.jpg";
 
 const newsItems = [
   {
@@ -8,7 +11,7 @@ const newsItems = [
     date: "2024-01-15",
     summary:
       "经过严格的审核评估，公司顺利通过ISO9001质量管理体系认证，标志着公司质量管理水平迈上新台阶。",
-    image: "/about-us.jpg",
+    image: aboutUsImg,
     category: "公司新闻",
   },
   {
@@ -17,7 +20,7 @@ const newsItems = [
     date: "2024-01-10",
     summary:
       "公司与国内外多家知名芯片厂商签署战略合作协议，将进一步扩大产品线，为客户提供更多优质选择。",
-    image: "/chip-1.jpg",
+    image: chip1Img,
     category: "合作动态",
   },
   {
@@ -26,7 +29,7 @@ const newsItems = [
     date: "2024-01-05",
     summary:
       "经过团队不懈努力，公司新一代智能控制方案正式发布，性能提升30%，功耗降低20%。",
-    image: "/chip-3.jpg",
+    image: chip3Img,
     category: "产品发布",
   },
 ];

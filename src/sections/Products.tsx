@@ -1,5 +1,11 @@
 import { useState, useEffect, useRef } from "react";
 import { ArrowRight } from "lucide-react";
+import chip1Img from "../../public/chip-1.jpg";
+import chip2Img from "../../public/chip-2.jpg";
+import chip3Img from "../../public/chip-3.jpg";
+import chip4Img from "../../public/chip-4.jpg";
+import chip5Img from "../../public/chip-5.jpg";
+import chip6Img from "../../public/chip-6.jpg";
 
 const categories = [
   "全部",
@@ -16,7 +22,7 @@ const products = [
     name: "STM32F103系列",
     description: "32位ARM Cortex-M3内核，高性能低功耗",
     category: "32位单片机",
-    image: "/chip-1.jpg",
+    image: chip1Img,
     specs: "72MHz | 64-512KB Flash",
   },
   {
@@ -24,7 +30,7 @@ const products = [
     name: "MSP430系列",
     description: "超低功耗16位MCU，适合电池供电应用",
     category: "8位单片机",
-    image: "/chip-2.jpg",
+    image: chip2Img,
     specs: "16MHz | 0.5-256KB Flash",
   },
   {
@@ -32,7 +38,7 @@ const products = [
     name: "PIC16F系列",
     description: "高性能8位单片机，工业级可靠性",
     category: "8位单片机",
-    image: "/chip-3.jpg",
+    image: chip3Img,
     specs: "32MHz | 7-128KB Flash",
   },
   {
@@ -40,7 +46,7 @@ const products = [
     name: "CH340系列",
     description: "USB转串口芯片，即插即用免驱动",
     category: "接口芯片",
-    image: "/chip-4.jpg",
+    image: chip4Img,
     specs: "USB 2.0 | 全速",
   },
   {
@@ -48,7 +54,7 @@ const products = [
     name: "AMS1117",
     description: "低压差线性稳压器，输出电流1A",
     category: "电源管理",
-    image: "/chip-5.jpg",
+    image: chip5Img,
     specs: "1A | 1.2V-5V",
   },
   {
@@ -56,7 +62,7 @@ const products = [
     name: "ESP32",
     description: "WiFi+蓝牙双模芯片，物联网首选",
     category: "ARM芯片",
-    image: "/chip-6.jpg",
+    image: chip6Img,
     specs: "240MHz | 双核",
   },
 ];
